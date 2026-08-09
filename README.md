@@ -24,7 +24,7 @@ Good[blog](https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-migr
 
 # 3. Archive BW Data without BW Bridge
 
-If the goal is to archive SAP BW data, you can create an **Open Hub** on an InfoProvider and use a SAP Datasphere Replication Flow to consume the data through **ODP** (Open Hub BW Extractor) and load it into SAP **HANA Data Lake** storage.
+If the goal is to archive SAP BW data, you can create an **Open Hub** on an InfoProvider and use a SAP Datasphere Replication Flow to consume the data through **ODP** (Open Hub BW Extractor) and load the data into SAP **HANA Data Lake** storage.
 
 
  
