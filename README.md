@@ -11,7 +11,7 @@ To help customers leverage their existing investment in SAP BW, SAP provides tra
 > [!NOTE]
 > Bex Query design is converted in BW-Bridge. But it cannot be executed.
 
-Good[blog](https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-migrate-data-from-sap-bw-to-sap-datasphere-bw-bridge-or-sap-bw-4hana/ba-p/13668426?utm_source=chatgpt.com)
+Good[blog](https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-migrate-data-from-sap-bw-to-sap-datasphere-bw-bridge-or-sap-bw-4hana/ba-p/13668426)
 
 ## 2. Create BW-Bridge
 - Allocate Resource
@@ -22,7 +22,12 @@ Good[blog](https://community.sap.com/t5/technology-blog-posts-by-sap/how-to-migr
 
 ![alt text](/images/BW_Bridge_2.png)
 
-# 3. Archive BW Data without BW Bridge
+![alt text](/images/BW_Bridge_3.png)
+
+# 3. Remote Conversion
+![alt text](/images/BW_Bridge_4.png)
+
+# 4. Archive BW Data without BW Bridge
 
 If the goal is to archive SAP BW data, you can create an **Open Hub** on an InfoProvider and use a SAP Datasphere Replication Flow to consume the data through **ODP** (Open Hub BW Extractor) and load the data into SAP **HANA Data Lake** storage.
 
